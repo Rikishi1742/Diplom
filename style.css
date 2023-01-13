@@ -1,0 +1,631 @@
+html
+{
+    background-color: #2E2E2E;
+    
+}
+
+html::-webkit-scrollbar {
+    width: 0;
+  }
+
+body
+{
+    margin: 0;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.nav
+{
+    width: 100%;
+    height: 80px;
+    background: #2E2E2E;
+    box-shadow: 0px -19px 72px 37px rgba(0, 0, 0, 0.25);
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+
+.nav .Container
+{
+    width: 60%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav .Container .Items
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.nav .Container .Items img
+{
+    width: 238px;
+    height: 100px;
+}
+
+.nav .Container .Items p
+{
+    font-family: 'Iceland', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 0%;
+
+    color: #FFFFFF;
+    text-shadow: 7px 7px 14px rgba(0, 0, 0, 0.25);
+}
+
+.LandingPage
+{
+    margin-top: 10px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LandingPage img
+{
+    width: 80%;
+    height: 90%;
+    margin-bottom: 15px;
+}
+
+.Container
+{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Content
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100vh;
+	align-items: center;
+	
+}
+
+.Content h2
+{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 60px;
+
+    text-align: justify;
+    letter-spacing: 0.04em;
+    margin-top: 50px;
+
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+h2 p 
+{
+    color: #66CC66;
+}
+
+.L
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.L p
+{
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: 0.04em;
+}
+
+.R
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.R p
+{
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: 0.04em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.btn
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 225px;
+    height: 75px;
+    background-color: #FFFFFF;
+    border-radius: 26px;
+}
+
+.btn p
+{
+    width: 100% !important;
+    font-family: 'Iceland' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 32px !important;
+    color: #66CC66 !important;
+    text-shadow: 7px 7px 14px rgba(0, 0, 0, 0.25);
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    margin: 0;
+    height: 100%;
+    line-height: 22px !important; 
+}
+
+.ContainerWrapper
+{
+    background-color: #FFFFFF;
+    width: 100%;
+}
+
+.ContainerWrapper .Container .Content h2
+{
+    color:  #2E2E2E;;
+}
+
+.ContainerWrapper .Container .Content p
+{
+    color:  #2E2E2E;;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.ContainerWrapper .Container .Content p b
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: -0.06em;
+
+    color: #66CC66;
+}
+
+.Recall
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 100%;
+    height: 450px;
+    margin-bottom: 155px;
+}
+
+.Recall .Comment
+{
+    background: #66CC66;
+    border-radius: 15px;
+    height: 370px;
+    width: 250px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    filter: drop-shadow(0px 25px 57px rgba(0, 0, 0, 0.25));
+    z-index: 1;
+}
+
+.Recall .Comment h3
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+
+    margin: 10px;
+
+    color: #FFFFFF;
+}
+
+.Recall .Comment p 
+{
+    font-family: 'Inter' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 24px !important;
+    line-height: 29px !important;
+    text-align: center !important;
+
+    color: #FFFFFF !important;
+}
+
+.Recall .CommentBig
+{
+    background: #66CC66;
+    border-radius: 15px;
+    height: 450px;
+    width: 300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    filter: drop-shadow(0px 25px 57px rgba(0, 0, 0, 0.25));
+    z-index: 1;
+}
+
+.Recall .CommentBig h3
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.Recall .CommentBig p 
+{
+    font-family: 'Inter' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 32px !important;
+    line-height: 39px !important;
+    text-align: center !important;
+    
+    color: #FFFFFF !important;
+}
+
+footer
+{
+    width: 100%;
+    background: #272727;
+    box-shadow: 0px -74px 126px 6px rgba(0, 0, 0, 0.25);
+}
+
+.Column
+{
+    width: auto;
+    height: 100%;
+    text-align: start;
+}
+
+.Column h2
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 0%;
+
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #FFFFFF;
+}
+
+.Column p
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    /* or 129% */
+
+    letter-spacing: 0.04em;
+
+    color: #FFFFFF;
+}
+
+.Line
+{
+    width: 100%;
+    height: 5px;
+    background-color: #FFFFFF;
+    margin-top: 25px;
+}
+
+footer .Container .Content p
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 137%;
+    /* or 22px */
+
+
+    color: #BBBBBB;
+}
+
+.bgWrapper
+{
+    position: absolute;
+    top: 0;
+    width: 100%; 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.bg
+{
+    position: absolute;
+    width: 95%;
+    height: 90%;
+    background-image: url(img/Background.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    filter: blur(12.5px);
+    z-index: 1;
+}
+
+form
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 470px;
+    height: 550px;
+    z-index: 2;
+    background: #2E2E2E;
+    box-shadow: 0px 0px 72px 37px rgba(0, 0, 0, 0.55);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+form h2
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 0%;
+    /* or 0px */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+input[type="password"] 
+{
+    background: #FFFFFF;
+    border-radius: 111px;
+
+    width: 340px;
+    height: 45px;
+    border: none;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 0%;
+
+    color: #2E2E2E;
+
+    outline:none;
+}
+
+input[type="text"]
+{
+    background: #FFFFFF;
+    border-radius: 111px;
+
+    width: 340px;
+    height: 45px;
+    border: none;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 0%;
+
+    color: #2E2E2E;
+
+    outline:none;
+}
+
+
+
+form p
+{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 0%;
+/* or 0px */
+
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+input[type="submit"]
+{
+    width: 214px;
+    height: 75px;
+    background: #FFFFFF;
+    border-radius: 26px;
+    outline: none;
+    border: none;
+
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 116%;
+    /* or 37px */
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #66CC66;
+
+    text-shadow: 7px 7px 14px rgba(0, 0, 0, 0.25);
+}
+
+form .regBtn
+{
+    width: 100%;
+    height: 130px;
+    background: #1C1C1C;
+}
+
+form .regBtn h2
+{
+    width: 100% !important;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+}
+
+.burger
+{
+    display: none;
+    width: 50px;
+    height: 50px;
+}
+
+.burger img
+{
+width: 50px;
+    height: 50px;
+display: none;
+}
+
+.Container .Content p
+{
+    color:  #ffffff;;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.Container .Content p b
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: -0.06em;
+
+    color: #66CC66;
+}
+
+.block
+{
+    width: 250px;
+    height: 250px;
+
+    background: #66CC66;
+    border-radius: 25px;
+}
+
+.Row
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+@media (min-width: 0px) and (max-width: 1268px) {
+  .Items {
+    display: none !important;
+  }
+
+  .burger
+   {
+    display: block;
+   }
+
+   .burger img
+   {
+   display: block;
+   }
+	
+   #img
+   {	
+	display:none;
+   }
+
+   .Container
+   {	
+	width:75%;
+   }
+   .Recall .Comment 
+   {
+	width: 200px;
+	height: 320px
+   }
+
+   .Recall .CommentBig
+   {	
+	height: 400px;
+	width: 250px
+   } 
+   .Recall .CommentBig p 
+    {
+   	 font-size: 26px;
+    }
+    
+
+	.nav .Container {
+	width:75%;
+}
+}
