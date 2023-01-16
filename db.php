@@ -4,6 +4,6 @@ if (!$db) {
     die('Could not connect: ' . mysqli_error());
 }
 //echo 'Connected successfully';
-mysqli_select_db ("Gecko", $db);
-mysqli_close($db);
+mysqli_select_db ($db, "gecko");
+
 ?>
