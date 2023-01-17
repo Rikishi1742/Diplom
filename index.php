@@ -32,11 +32,11 @@ include("db.php")
 	    <div class="Logo" style="display: flex; align-items: center;">
 		<img src="img/logo.png" alt="">
 	    </div>
+        
             <div class="Items">
-                
                 <p>About Us</p>
                 <a href="lessons.html"><p>Education</p></a>
-                <a href="reg.php"><p>Authorization</p></a>
+                <a href="reg.php"><p>Registration</p></a>
                 <p>Settings</p>
             </div>
 	    
@@ -76,7 +76,7 @@ include("db.php")
             </div>
             <div class="Container">
                 <div class="Content" style="margin-top: 30px;">
-                    <p>
+                    <p style="margin: 0;">
                         Gecko is an <b>online educational platform</b> whose task is to provide an opportunity for each person to test their skills in <b>security testing</b>
                     </p>
                     <div class="Recall">

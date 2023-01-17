@@ -22,21 +22,23 @@
 
         </div>
 
-        <form action="save_user.php" method="post" enctype="multipart/form-data">
-            <h2>Register</h2>
-            <input name="login" type="text" size="15" maxlength="15" placeholder="Email">
+        <form action="testreg.php" method="post">
+            <h2>Authorization</h2>
+
+            <input type="text" name="login" id="" placeholder="Email" maxlength="15">
 
             <div>
-                <input name="password" type="password" size="15" maxlength="15" placeholder="Password" style=" background: #FFFFFF; border-radius: 111px; width: 340px; height: 45px; border: none; text-align: center; font-family: 'Inter'; font-style: normal; font-weight: 600; font-size: 20px; line-height: 0%; color: #2E2E2E; outline:none;">
+                <input type="text" name="password" id="" placeholder="Password" maxlength="15">
+                <p>Forgot your password?</p>
             </div>
-
-            <input type="submit" value="Register" name="submit">
+            
+            
+            <input type="submit" value="Log in">
 
             <div class="regBtn">
-                <a href="auto.php"><h2>Authorization</h2></a>
+                <a href="reg.php"><h2>Registration</h2></a>
             </div>
         </form>
-
     </main>
 </body>
 </html>
